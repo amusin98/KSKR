@@ -51,7 +51,7 @@ namespace WpfApp1
             {
                 for (int j = 1; j < Convert.ToInt32(nI.Text); j++)
                 {
-                    double u = gamma * setka[i, j - 1] - (gamma - 1) * setka[i, j] + gamma * setka[i, j + 1];
+                    double u = gamma * setka[i, j- 1] - (gamma - 1) * setka[i, j] + gamma * setka[i, j + 1];
                     setka[i - 1, j] = Math.Round(u, 3);
                 }
             }
