@@ -13,7 +13,7 @@
         <TextBox Name="Tn" HorizontalAlignment="Left" Height="23" Margin="26,142,0,0" TextWrapping="Wrap" Text="Тн" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="26,188,0,0" Height="42" Width="132"><Run Language="ru-ru" Text="Температура на конце стержня"/></TextBlock>
         <TextBox Name="Tk" HorizontalAlignment="Left" Height="23" Margin="26,230,0,0" TextWrapping="Wrap" Text="Тк" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Подтвердить" HorizontalAlignment="Left" Margin="26,281,0,0" VerticalAlignment="Top" Width="110" Height="32" Click="Button_Click"/>
+        <Button Content="Неявная схема" HorizontalAlignment="Left" Margin="392,164,0,0" VerticalAlignment="Top" Width="116" Height="46" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="222,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="130"><Run Language="ru-ru" Text="Длина стержня"/></TextBlock>
         <TextBox Name="L" HorizontalAlignment="Left" Height="23" Margin="222,51,0,0" TextWrapping="Wrap" Text="L" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="222,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="147"><Run Language="ru-ru" Text="Временной интервал"/></TextBlock>
@@ -23,6 +23,7 @@
         <TextBox Name="nI" HorizontalAlignment="Left" Height="23" Margin="222,230,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="392,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="41"><Run Language="ru-ru" Text="Кол-во разбиений длины стержня"/></TextBlock>
         <TextBox Name="nR" HorizontalAlignment="Left" Height="23" Margin="392,66,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Явная схема" HorizontalAlignment="Left" Margin="392,109,0,0" VerticalAlignment="Top" Width="116" Height="44" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
